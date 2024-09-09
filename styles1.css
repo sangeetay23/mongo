@@ -1,0 +1,151 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Body container styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    background-color: lightblue;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.but1 {
+    background-color: #b3bcc3;
+}
+
+.but2 {
+    background-color: #ffea00;
+    color: black;
+}
+
+.but3 {
+    background-color: #a5d6a7;
+}
+
+.but4 {
+    background-color: #ef5350;
+}
+
+/* Task container styling */
+.code {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* To-Do List Form */
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.task-form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+}
+
+.task-form input:focus {
+    outline: none;
+    border-color: #4dabf7;
+    box-shadow: 0 0 5px rgba(0, 149, 246, 0.5);
+}
+
+.task-form button {
+    background-color: #4dabf7;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #42a5f5;
+}
+
+/* Task list section */
+#taskList {
+    margin-top: 20px;
+}
+
+.task-item {
+    background-color: #f0f4f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: #ef5350;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
